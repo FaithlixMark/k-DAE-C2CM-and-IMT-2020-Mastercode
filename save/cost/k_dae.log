@@ -1,0 +1,45 @@
+2024-04-10 15:09:17,527 - root - DEBUG - Start running dataset name - cost
+2024-04-10 15:11:06,638 - root - INFO - ########Initial Clustering Results########
+2024-04-10 15:11:06,654 - root - INFO - NMI - 0.739442627,ARI - 0.24,ACC - 0.50,JAC - 0.09
+2024-04-10 15:11:06,654 - root - INFO - Numbers in num_list are: 18 1 1 13 10 13 10 10 10 12 18 16 17 3 9 3 9 9 17 17 17 10 10 10 15 7 18 8 7 11 10 10 13 0 0 0 4 4 4 17 14 14 9 8 17 10 10 10 3 3 9 5 1 2 6 1
+2024-04-10 15:11:06,654 - root - INFO - Save the initial clustering
+2024-04-10 15:11:06,654 - root - INFO - model number 0 create
+2024-04-10 15:11:08,079 - root - INFO - model number 1 create
+2024-04-10 15:11:09,663 - root - INFO - model number 2 create
+2024-04-10 15:11:11,169 - root - INFO - model number 3 create
+2024-04-10 15:11:12,781 - tensorflow - WARNING - 5 out of the last 6 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000002137250EB00> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2024-04-10 15:11:12,781 - root - INFO - model number 4 create
+2024-04-10 15:11:14,270 - tensorflow - WARNING - 6 out of the last 7 calls to <function Model.make_predict_function.<locals>.predict_function at 0x0000021374D9CB80> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2024-04-10 15:11:14,270 - root - INFO - model number 5 create
+2024-04-10 15:11:15,913 - root - INFO - model number 6 create
+2024-04-10 15:11:17,346 - root - INFO - model number 7 create
+2024-04-10 15:11:19,092 - root - INFO - model number 8 create
+2024-04-10 15:11:20,626 - root - INFO - model number 9 create
+2024-04-10 15:11:22,079 - root - INFO - model number 10 create
+2024-04-10 15:11:23,912 - root - INFO - model number 11 create
+2024-04-10 15:11:25,401 - root - INFO - model number 12 create
+2024-04-10 15:11:26,875 - root - INFO - model number 13 create
+2024-04-10 15:11:28,809 - root - INFO - model number 14 create
+2024-04-10 15:11:30,465 - root - INFO - model number 15 create
+2024-04-10 15:11:32,309 - root - INFO - model number 16 create
+2024-04-10 15:11:34,162 - root - INFO - model number 17 create
+2024-04-10 15:11:36,206 - root - INFO - model number 18 create
+2024-04-10 15:11:42,410 - root - INFO - Clustering result after each ae train separately
+2024-04-10 15:11:42,410 - root - INFO - NMI - 0.702874734,ARI - 0.18,ACC - 0.46,JAC - 0.07
+2024-04-10 15:11:42,410 - root - INFO - Numbers in num_list are: 16 2 1 13 10 13 10 10 0 12 12 16 17 12 9 3 9 11 17 12 17 10 10 10 15 7 12 12 11 11 0 10 13 0 0 0 4 4 4 12 14 14 17 4 17 10 10 10 8 4 9 5 18 2 6 12
+2024-04-10 15:11:42,410 - root - INFO - Create the k_dae model
+2024-04-10 15:12:40,812 - absl - WARNING - Function `_wrapped_model` contains input name(s) Input_layer with unsupported characters which will be renamed to input_layer in the SavedModel.
+2024-04-10 15:13:31,218 - tensorflow - INFO - Assets written to: k_dae_cost\assets
+2024-04-10 15:13:46,058 - root - INFO - Result after 0 epochs
+2024-04-10 15:13:46,077 - root - INFO - NMI - 0.702874734,ARI - 0.18,ACC - 0.46,JAC - 0.07
+2024-04-10 15:13:46,078 - root - INFO - Numbers in num_list are: 16 2 1 13 10 13 10 10 0 12 12 16 17 12 9 3 9 11 17 12 17 10 10 10 15 7 12 12 11 11 0 10 13 0 0 0 4 4 4 12 14 14 17 4 17 10 10 10 8 4 9 5 18 2 6 12
+2024-04-10 15:14:10,275 - absl - WARNING - Function `_wrapped_model` contains input name(s) Input_layer with unsupported characters which will be renamed to input_layer in the SavedModel.
+2024-04-10 15:14:53,850 - tensorflow - INFO - Assets written to: k_dae_cost\assets
+2024-04-10 15:15:35,414 - absl - WARNING - Function `_wrapped_model` contains input name(s) Input_layer with unsupported characters which will be renamed to input_layer in the SavedModel.
+2024-04-10 15:16:20,569 - tensorflow - INFO - Assets written to: k_dae_cost\assets
+2024-04-10 15:16:52,596 - absl - WARNING - Function `_wrapped_model` contains input name(s) Input_layer with unsupported characters which will be renamed to input_layer in the SavedModel.
+2024-04-10 15:17:46,274 - tensorflow - INFO - Assets written to: k_dae_cost\assets
+2024-04-10 15:18:19,718 - absl - WARNING - Function `_wrapped_model` contains input name(s) Input_layer with unsupported characters which will be renamed to input_layer in the SavedModel.
+2024-04-10 15:19:12,369 - tensorflow - INFO - Assets written to: k_dae_cost\assets
+2024-04-10 15:19:27,671 - root - INFO - NMI - 0.708241431,ARI - 0.19,ACC - 0.46,JAC - 0.07
+2024-04-10 15:19:27,671 - root - INFO - Numbers in num_list are: 16 2 1 13 10 13 10 10 0 12 12 16 17 12 9 3 9 11 17 12 17 10 10 10 15 7 12 12 11 11 10 10 13 0 0 0 4 4 4 12 14 14 17 4 17 10 10 10 8 4 9 5 18 2 6 12
