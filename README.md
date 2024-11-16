@@ -39,7 +39,7 @@ Yaniv Opochinsky, Shlomo E. Chazan, Sharon Gannot and Jacob Goldberger
 * openpyxl = 3.1.2
 * pandas = 2.2.0
 
-For more info please refer to the attached paper
+For more info please refer to this paper: https://drive.google.com/file/d/1AMQVQDl2xmSlYwidBWxXGFyK3ef_qXhv/view?usp=sharing
 
 ### Abstract 
 Channel modeling plays a significant role in designing and evaluating wire
