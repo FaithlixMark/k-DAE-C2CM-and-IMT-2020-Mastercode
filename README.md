@@ -1,4 +1,46 @@
 # k-DAE-C2CM-and-IMT-2020-Mastercode
+K-AUTOENCODERS DEEP CLUSTERING
+---------------------------------------------------------------
+This repo contains the source code for our paper:
+
+[**K-AUTOENCODERS DEEP CLUSTERING**](http://www.eng.biu.ac.il/goldbej/files/2020/02/ICASSP_2020_Yaniv.pdf) 
+<br>
+Yaniv Opochinsky, Shlomo E. Chazan, Sharon Gannot and Jacob Goldberger
+
+
+
+
+
+---------------------------------------------------------------  
+#### How to Use?
+* clone the repo
+* cd to the cloned dir 
+* conda create -n k_dae python=3.6 
+* conda activate k_dae 
+* pip install - Requirements
+
+
+### Run example: 
+* `python main.py -dn mnist` 
+
+#### Optional Args: 
+
+* `--dataset_name` - The name of dataset [imt2020 / cost] default: imt2020
+* `--save_dir` - path to output folder. (contains logs and model.)
+
+# Requirements
+* Python = 3.11.2
+* Tensorflow = 2.14.0
+* Tensorflow-estimator = 2.14.0
+* Numpy = 1.24.2
+* Scipy = 1.10.1
+* Scikit-learn = 1.3.2
+* Keras = 2.14.0
+* openpyxl = 3.1.2
+* pandas = 2.2.0
+
+For more info please refer to the attached paper
+
 Abstract 
 Channel modeling plays a significant role in designing and evaluating wire
 less communication systems. Geometric-Based Stochastic Channel Modelling
