@@ -27,6 +27,7 @@ Yaniv Opochinsky, Shlomo E. Chazan, Sharon Gannot and Jacob Goldberger
 
 * `--dataset_name` - The name of dataset [imt2020 / cost] default: imt2020
 * `--save_dir` - path to output folder. (contains logs and model.)
+Dataset link: https://drive.google.com/drive/folders/1yZ6iIZC9cKYUyfTlUnZsYt2B1uotG2pd?usp=sharing
 
 ### Requirements
 * Python = 3.11.2
