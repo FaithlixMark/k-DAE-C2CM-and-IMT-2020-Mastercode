@@ -28,7 +28,7 @@ Yaniv Opochinsky, Shlomo E. Chazan, Sharon Gannot and Jacob Goldberger
 * `--dataset_name` - The name of dataset [imt2020 / cost] default: imt2020
 * `--save_dir` - path to output folder. (contains logs and model.)
 
-# Requirements
+### Requirements
 * Python = 3.11.2
 * Tensorflow = 2.14.0
 * Tensorflow-estimator = 2.14.0
@@ -41,7 +41,7 @@ Yaniv Opochinsky, Shlomo E. Chazan, Sharon Gannot and Jacob Goldberger
 
 For more info please refer to the attached paper
 
-Abstract 
+### Abstract 
 Channel modeling plays a significant role in designing and evaluating wire
 less communication systems. Geometric-Based Stochastic Channel Modelling
  (GBSCM) rely on the statistical distribution of multipath waves which arrive at
